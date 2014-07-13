@@ -1,10 +1,15 @@
 var wilson = function (positiveScore, total) {
-  var CONFIDENCE_LEVEL = 1.96;
-  var phat;
-
   if (total === 0) {
     return 0;
   }
-  phat = positiveScore / total;
-  return (phat + CONFIDENCE_LEVEL * CONFIDENCE_LEVEL / (2 * total) - CONFIDENCE_LEVEL * Math.sqrt((phat * (1 - phat) + CONFIDENCE_LEVEL * CONFIDENCE_LEVEL / (4 * total)) / total)) / (1 + CONFIDENCE_LEVEL * CONFIDENCE_LEVEL / total);
+
+  // phat is the proportion of successes
+  // in a Bernoulli trial process
+  var phat = positiveScore / total;
+
+  // z is 1-alpha/2 percentile of a standard
+  // normal distribution for error alpha=5%
+  var z = 1.96;
+
+  return (phat + z * z / (2 * total) - z * Math.sqrt((phat * (1 - phat) + z * z / (4 * total)) / total)) / (1 + z * z / total);
 };
