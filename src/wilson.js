@@ -1,4 +1,7 @@
 var wilson = function (positiveScore, total) {
+
+  "use strict";
+
   if (total === 0) {
     return 0;
   }
