@@ -1,3 +1,5 @@
+/* exported wilson */
+
 var wilson = function (positiveScore, total) {
 
   "use strict";
