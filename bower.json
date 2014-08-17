@@ -1,0 +1,24 @@
+{
+  "name": "wilson-score-interval",
+  "version": "1.0.0",
+  "authors": [
+    "Michał Jezierski <ambinanitelo@gmail.com>"
+  ],
+  "description": "Wilson score interval",
+  "main": "dist/wilson.js",
+  "keywords": [
+    "wilson",
+    "score",
+    "confidence",
+    "interval",
+    "comments"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
