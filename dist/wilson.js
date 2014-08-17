@@ -1,0 +1,1 @@
+(function(){var wilson=function(a,b){"use strict";if(0===b)return{left:0,right:0};var c=a/b,d=1.96,e=c+d*d/(2*b),f=d*Math.sqrt((c*(1-c)+d*d/(4*b))/b),g=1+d*d/b;return{left:(e-f)/g,right:(e+f)/g}};})();
