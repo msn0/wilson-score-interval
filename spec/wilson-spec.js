@@ -22,4 +22,7 @@ describe("wilson", function () {
   it("should return higher left for proportionally bigger sample", function () {
     expect(wilson(5, 50).left < wilson(10, 100).left).toBeTruthy();
   });
+  it("should return proper value", function () {
+    expect(wilson(4097, 4985).left).toEqual(0.8109971539140524);
+  });
 });
