@@ -10,6 +10,11 @@ Wilson score interval is a perfect tool for scoring comments. The only data you 
 Installation
 ------------
 
+```
+npm install wilson-score-interval
+```
+or
+
 ```bower install wilson-score-interval --save```
 
 Basic usage
