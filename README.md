@@ -15,7 +15,9 @@ npm install wilson-score-interval
 ```
 or
 
-```bower install wilson-score-interval --save```
+```
+bower install wilson-score-interval
+```
 
 Basic usage
 -----------
