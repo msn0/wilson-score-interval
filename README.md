@@ -20,7 +20,7 @@ bower install wilson-score-interval
 ```js
 wilson(upVotes, total);
 
-wilson(430, 474); // → Object{left: 0.8776750858242243, right: 0.9301239839930541}
-wilson(392, 436); // → Object{left: 0.8672311846637769, right: 0.9239627360567735}
-wilson(10, 14);   // → Object{left: 0.4535045882751561, right: 0.882788120898909}
+wilson(430, 474); // {left: 0.8776750858242243, right: 0.9301239839930541}
+wilson(392, 436); // {left: 0.8672311846637769, right: 0.9239627360567735}
+wilson(10, 14);   // {left: 0.4535045882751561, right: 0.882788120898909}
 ```
