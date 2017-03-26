@@ -17,7 +17,7 @@ var wilson = function (positiveScore, total) {
 
   // z is 1-alpha/2 percentile of a standard
   // normal distribution for error alpha=5%
-  var z = 1.96;
+  var z = 1.959963984540;
 
   // implement the algorithm
   // (http://goo.gl/kgmV3g)
