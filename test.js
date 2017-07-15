@@ -7,7 +7,7 @@ test('should return two values - left and right', t => {
 });
 
 test('left should be less than right', t => {
-    t.true(wilson(1, 2).left < wilson(2, 3).left);
+    t.true(wilson(1, 2).left < wilson(1, 2).right);
 });
 
 test('should return (0,0) for up=0, total=0', t => {
@@ -34,4 +34,5 @@ test('should return higher left for proportionally bigger sample', t => {
 
 test('should return proper value', t => {
     t.is(wilson(4097, 4985).left, 0.8109971539140524);
+    t.is(wilson(4097, 4985).right, 0.8322383418771949);
 });
