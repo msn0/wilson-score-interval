@@ -1,5 +1,5 @@
 const test = require('ava');
-const wilson = require('./wilson');
+const wilson = require('./');
 
 test('should return two values - left and right', t => {
     t.true(wilson(1, 2).hasOwnProperty('left'));
