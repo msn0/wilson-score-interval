@@ -1,4 +1,4 @@
-# Wilson Score Interval [![Build Status](https://secure.travis-ci.org/msn0/wilson-score-interval.png?branch=master)](http://travis-ci.org/msn0/wilson-score-interval)
+# Wilson Score Interval
 
 Simple JavaScript implementation of [Wilson score interval](https://en.wikipedia.org/wiki/Binomial_proportion_confidence_interval#Wilson_score_interval). Useful wherever you want to make a confident estimate about the actions or preferences of a general population, given a sample of data (e.g. assigning scores for ranking [comments by upvotes](https://medium.com/hacking-and-gonzo/how-reddit-ranking-algorithms-work-ef111e33d0d9), products by popularity, [and more](#exampleusecases)).
 
