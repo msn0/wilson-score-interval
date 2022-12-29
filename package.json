@@ -16,7 +16,7 @@
     "wilson"
   ],
   "devDependencies": {
-    "ava": "^0.21.0",
+    "ava": "^5.1.0",
     "eslint-config-helmut": "^1.2.0"
   }
 }
